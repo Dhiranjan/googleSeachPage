@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+/***********Top Navigation Menu*********/
+#section {
+    padding: 20px 0px 20px;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+.top ul {
+    display: flex;
+    width: 100%;
+}
+
+.top ul li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+
+}
+
+#section ul li a {
+    text-decoration: none;
+    color: #333;
+
+}
+
+#section img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#section .fa {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    margin-top: 3px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+
+
+
+.top ul li:nth-child(1),
+.top ul li:nth-child(2),
+.top ul li:nth-child(3),
+.top ul li:nth-child(4)
+ {
+   margin-top: 5px;
+}
+
+
+.top ul li:nth-child(3) {
+    margin-left: auto;
+}
+
+#section .col-md-6 {
+    padding-top: 60px;
+}
+
+#section .google-image {
+    width: 300px;
+    height: 200px;
+}
+
+
+/**************Seacrch Form************/
+form {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 0px;
+    position: relative;
+
+}
+
+form .fa {
+    position: absolute;
+    right: 3%;
+    top: 20%;
+}
+
+
+
+.form-control {
+    background-color: #eeeeee !important; 
+    border: 1px solid #fff !important;
+    border-radius: 30px !important;
+    padding: 25px 15px !important;
+
+
+}
+
+
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 20px 0px;
+
+}
+
+
+
+/***********Short cut***********/
+
+#short-cut {
+    padding: 10px 20px;
+}
+
+.short-cut-container{
+    width: 100px;
+    height: 100px;
+    padding: 10px 0px;
+}
+
+.short-cut-container:hover {
+    background-color: #eeeeee;
+    transition: 0.5s;  
+}
+
+.short-cut-container > div {
+    margin-bottom: 10px;
+}
+
+.short-cut-single {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.short-cut-logo {
+    width: 48px;
+    height: 48px;
+    margin: auto; 
+}
+
+.short-cut-title {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+/********Short cut for add menu********/
+.short-cut-logo-fa {
+    
+ text-align: center;
+ padding-top: 5px; 
+}
+
+.short-cut-logo-fa .fa {
+    background-color: #eeeeee;
+    width: 43px;
+    height: 43px;
+    font-size: 14px;
+    color: #333;
+    padding: 15px 15px; 
+    border-radius: 50%;
+}
+
+#short-cut a {
+    text-decoration: none;
+}
+
+/***********Footer*********/
+
+footer {
+    padding: 40px 20px 10px;
+    margin: 0px;
+}
+
+.setting {
+    display: inline-block;
+    float: right;
+}
