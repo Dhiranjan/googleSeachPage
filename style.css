@@ -103,6 +103,9 @@ form .fa {
 
 }
 
+.form-control:focus {
+    box-shadow: none !important;
+}
 
 ::placeholder{
     font-family: Arial, Helvetica, sans-serif;
